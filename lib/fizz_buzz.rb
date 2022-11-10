@@ -30,7 +30,7 @@ class FizzBuzz
       end
     end
   end
-
-  number = FizzBuzz.new
-  puts number.judgment?(300)
 end
+
+number = FizzBuzz.new
+puts number.judgment?(300)
