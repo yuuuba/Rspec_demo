@@ -5,6 +5,8 @@ RSpec.describe TicketMachine do #クラス名？
 
   describe '#up_count' do
     it '注文数が1増える' do
+      # 前提: 仮に「初期の注文数」がゼロである状況を再現
+      # ゼロから１つ増えたことをテスト
       expect(ticket_machine.up_count(1)).to eq true
     end
 
