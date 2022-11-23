@@ -2,7 +2,7 @@
 
 class FizzBuzz
   def fizz?(n)
-    # n % 3 == 0
+    n % 3 == 0
     n.modulo(3).zero?
   end
 
@@ -33,4 +33,4 @@ class FizzBuzz
 end
 
 number = FizzBuzz.new
-puts number.judgment?(300)
+puts number.judgment?(3)
